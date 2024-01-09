@@ -1,0 +1,75 @@
+/* common sherd styles*/
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.text-primary{
+    color: #FD6E0A;
+    font-size: 25px;
+    font-weight: 800;
+}
+.btn-primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+
+/*nav related styles*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+.nav-title{
+    color: var(--Dark-01, #181818);
+    font-size: 45px;
+    font-weight: 800;
+
+
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a {
+    text-decoration: none;
+    color:#474747;
+
+}
+.header {
+    background-color: bisque;
+    background-image:url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-contend{
+    max-width: 500px;
+}
+
+.banner .profile-picture{
+    width: 350px;
+}
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+.banner-title{
+    font-size: 80px;
+    font-weight: 700;
+    margin-top: 5px;
+}
